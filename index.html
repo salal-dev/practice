@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE FRIES HUB </title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -23,7 +25,7 @@
 
     <section id="HOME">
         <h2>WELCOME TO THE FRIES HUB </h2>
-        <p>WE SERVE BEST QUALITY FOOD OUR SPECIALITY IS FRIES<b>LOADED FRIES </b><B>FLAVOURED FRIES</B><b>BEEF BURGERS</b> </p>
+        <pre>WE SERVE BEST QUALITY FOOD OUR SPECIALITY IS FRIES  <b>LOADED FRIES </b>  <B>FLAVOURED FRIES</B>      <b>BEEF BURGERS</b> </pre>
         <img src="FRIES.JPG.JPEG" alt="FRIES PLATTER">
     </section>
     <br><hr>
@@ -33,18 +35,80 @@
         <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
 <thead><b>fries hub PRICES</b>
 <tr>
-    <th>fries PLATTER</th>
-        <th>fries combos</th>
-            <th>650-1999pkr</th>
+    <th>NAME</th>
+        <th>CATEGORY</th>
+            <th>PRICES</th>
 </tr>
 
 </thead>
-
+<tbody>
+    <tr>
+<td>loaded fries</td>
+<td>FRIES</td>
+<td>600 PKR</td>
+    </tr>
+    <TR>
+        <TD>FLAVOURED FRIES</TD>
+        <TD>FRIES</TD>
+        <TD>350 PKR </TD>
+    </TR>
+     <TR>
+        <TD>PLAIN FRIES</TD>
+        <TD>FRIES</TD>
+        <TD>150-250 PKR </TD>
+    </TR>
+     <TR>
+        <TD>CURLY RINGS </TD>
+        <TD>FRIES</TD>
+        <TD>300 PKR </TD>
+    </TR>
+     <TR>
+        <TD>BEEF BURGER</TD>
+        <TD>SMASH </TD>
+        <TD>980-1200 PKR </TD>
+    </TR>
+</tbody>
         </table>
-
     </section>
+    <section id="RESERVATION">
+<h2>BOOK YOUR TABLE ONLINE</h2>
+<p>
+    FILL THIS FORM TO RESERVE YOUR TABLE ONLINE 
+</p>
+<form>
+    <fieldset>
+        <legend>RESERVATION DETAILS</legend>
+
+        <label for="USERNAME">YOUR NAME</label><BR>
+            <input type="text" id="USERNAME"NAME="USERNAME" placeholder="ENTER NAME" required><BR>
+                <label for="EMAIL" >EMAIL ADRESS</label><br><input type="email" id="EMAIL" name="EMAIL" placeholder="ABC@GMAIL.COM"><br>
+  <Label for="GUESTS">NUMBER OF GUESTS:</Label><br>
+  <select id="GUESTS" name="GUESTS">
+    
+    <OPtion value="1">1 PERSON </OPtion>
+    <OPtion value="2">2 PERSONS </OPtion>
+    <OPtion value="3">3PERSONS </OPtion>
+    <OPtion value="4">4 PERSONS </OPtion>
+    <OPtion value="5">5 PERSONS </OPtion>
+    <Option value="FAMILY">FAMILY (5+)</Option>
+  </select><br><br>
+  <label for="MESSEGE">SPECIAL INSTRUCTIONS:</label><br>
+  <textarea id="MESSEGE" name="MESSEGE" rows="3" placeholder="SPECIAL INSTRUCTIONS"></textarea><br><BR>
+    <button type="submit">SUBMIT BOOKING</button>
+
+            </fieldset>
+</form>
+    </section>
+
 </main>
     </header>
+    <footer>
+        <address><b>LOCATION</b>M.A JANNAH ROAD OKARA ,PAKISTAN<BR>
+        <B>PHONE</B>0300123456
+        </address>
+        <P><small>&COPY;2026 THE FRIES HUB. ALL RIGHTS RESERVED.
+        </small></P>
+    </footer>
 </body>
 
 </html>
